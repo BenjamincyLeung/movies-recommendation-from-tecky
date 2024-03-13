@@ -1,0 +1,75 @@
+# Visualize on https://quick-erd.surge.sh
+#
+# Relationship Types
+#  -    - one to one
+#  -<   - one to many
+#  >-   - many to one
+#  >-<  - many to many
+#  -0   - one to zero or one
+#  0-   - zero or one to one
+#  0-0  - zero or one to zero or one
+#  -0<  - one to zero or many
+#  >0-  - zero or many to one
+#
+////////////////////////////////////
+
+
+users
+----
+id pk
+username varchar(255)
+password varchar(255)
+gender varchar(255)
+
+categories
+----
+id pk
+category varchar(255)
+
+directors
+----
+id pk
+director varchar(255)
+
+actors
+----
+id pk
+actor varchar(255)
+
+films
+----
+id pk
+film_name varchar(255)
+image varchar(255)
+adult boolean
+overview text
+release_date date
+
+
+choose_3_categories
+----
+id pk
+user_id fk -< users.id
+category_id fk -< categories.id
+
+
+ratings
+----
+id pk
+rate_user_id fk -< users.id
+film_id fk -< films.id
+rating smallint
+create_time date
+
+collection
+----
+id pk
+saved_user_id fk -< users.id
+film_id fk -< films.id
+
+film_categories
+----
+id pk
+film_id fk -< films.id
+category_id fk -< categories.id
+

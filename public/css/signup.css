@@ -1,0 +1,63 @@
+body{ 
+  background-image:url(/photo/netflix-wallpaper.jpg)
+}
+.outer-container{ 
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.container{ 
+  display: flex;
+  justify-content: center;
+  width:370px; 
+  height:420px;
+  background-color: rgba(0,0,0,.75);
+  border-radius: 20px;
+}
+.form-field{ 
+  margin-top: 50px;
+}
+.sign-up-title{ 
+  font-weight: bold; 
+  color: white; 
+  font-size: 30px;
+}
+.input-box{ 
+
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  width:100%;
+  background-color:#3333 ;
+  padding:0;
+  margin-top:20px;
+  border:0 solid ;
+  height:30px;
+  border-radius: 10px ;
+  box-shadow: 0 2px 0 0  ;
+  margin-bottom: 1.5rem;
+  border: 0;
+}
+#sign-up-button{ 
+  width:50%;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 25%;
+  background-color: #b76f4d;
+}
+#movie-genre{ 
+  border-radius: 10px;
+  margin-left: 80%;
+  margin-bottom: 20px;
+}
+
+.message{ 
+  width: 100%;
+  height:20px;
+  background-color: #1d8102;
+  color:white;
+  border-radius: 10px;
+  text-align: center;
+  padding:10px 0px;
+}
+

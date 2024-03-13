@@ -1,0 +1,62 @@
+.category-head {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(189, 189, 70);
+    font-family: monospace;
+    margin: 20px 0px 0px 0px;
+}
+
+.categoryList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.scroll-container {
+    overflow: auto;
+    white-space: normal; /*modified*/
+    padding: 5px 70px 5px 0px;
+    background: transparent;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+}
+
+.gridscroll {
+    display: inline-block;
+    display: flex;
+}
+
+.gridscroll img {
+    margin-right: 22px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    margin-right: 10px;
+}
+
+.film-name-button {
+    display: inline-block;
+    width: 130px;
+    height: auto; /*modified*/
+    margin: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    border: rgb(1, 49, 60) solid 10px;
+    overflow-wrap: break-word;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.film-name-button:hover {
+    background-color: yellow;
+    color: black;
+}

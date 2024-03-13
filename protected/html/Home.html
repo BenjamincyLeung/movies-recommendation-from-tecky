@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HOME</title>
+<!--個TITLE 之後再改番網站名-->
+
+<link rel="stylesheet" href="../css/navbarcomponent.css" />
+<link rel="stylesheet" href="../css/home.css" />
+
+</head>
+
+<body>
+  <!--NAVBAR BELOW-->
+  <div class="container">
+    <div class="navbar-container">
+
+        <a href="../html/Home.html">
+            <img href="../html/Home.html" id="jackass_pic" src="../photo/the_movie-logo.jpg"
+        /></a>
+        <a href="../html/Home.html" class="home elementList">HOME</a>
+         <!--DROP DOWN MENU-->
+        <div class="dropdown elementList">
+
+          <a href="" class="dropBtn">GENRE</a>
+          
+          <div  class="dropdown-content">
+            <a href="./genre.html?cid=1" id="catValue" value="1">Action</a>
+            <a href="./genre.html?cid=2" id="catValue" value="2">Thriller</a>
+            <a href="./genre.html?cid=3" id="catValue" value="3">Science Fiction</a>
+            <a href="./genre.html?cid=4" id="catValue" value="4">Mystery</a>
+            <a href="./genre.html?cid=5" id="catValue" value="5">Adventure</a>
+            <a href="./genre.html?cid=6" id="catValue" value="6">Drama</a>
+            <a href="./genre.html?cid=7" id="catValue" value="7">Crime</a>
+            <a href="./genre.html?cid=8" id="catValue" value="8">Fantasy</a>
+            <a href="./genre.html?cid=9" id="catValue" value="9">Comedy</a>
+            <a href="./genre.html?cid=10" id="catValue" value="10">Western</a>
+            <a href="./genre.html?cid=11" id="catValue" value="11">Romance</a>
+            <a href="./genre.html?cid=12" id="catValue" value="12">Family</a>
+            <a href="./genre.html?cid=13" id="catValue" value="13">Animation</a>
+            <a href="./genre.html?cid=14" id="catValue" value="14">War</a>
+            <a href="./genre.html?cid=15" id="catValue" value="15">History</a>
+            <a href="./genre.html?cid=16" id="catValue" value="16">Horror</a>
+          </div>
+           <!--DROP DOWN MENU ENDS-->
+        </div>
+        <a
+            href="../html/mylist.html"
+            class="elementList hover clickEffect"
+            >MY LIST</a
+        >
+    </div>
+    <div class="search-bar-login right-sidebar">
+        <input
+            class="movie-name-input-box"
+            type="text"
+            name="movie"
+            placeholder="請輸入關鍵字"
+        />
+        <a class="link-to-login link-to-logout"  onclick="logout();">Logout</a>
+    </div>
+</div>
+  <!--NAVBAR ENDS-->
+
+
+
+  <!--SLIDES SHOW BEGINS-->
+  <div class="stui-pannel-box content-slides-container">
+    <div class="movie-slide">
+      <div class="slidershow">
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked />
+          <input type="radio" name="r" id="r2" />
+          <input type="radio" name="r" id="r3" />
+          <input type="radio" name="r" id="r4" />
+          <input type="radio" name="r" id="r5" />
+          <div class="slide s1">
+            <img src="../photo/avengers5.jpg" style="width:100%" alt="" />
+          </div>
+          <div class="slide">
+            <img src="../photo/Doctor-Strange02.jpg" style="width:100%" alt="" />
+          </div>
+          <div class="slide">
+            <img src="../photo/red-notice-actors-dwayne-johnson-gal-gadot-ryan-reynolds-expected-salary-for-their-work-will-blow-your-mind-001.jpg" style="width:100%" alt="" />
+          </div>
+          <div class="slide">
+            <img src="../photo/saTvPoYf5i3ydKMo6VVaPZ0-0MkMLKPQ5lKvF-ZSrxc.jpg" style="width:100%" alt="" />
+          </div>
+          <div class="slide">
+            <img src="../photo/sqd-game-1140.jpg" style="width:100%" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="navigation manual">
+        <label for="r1" class="manual-btn"></label>
+        <label for="r2" class="manual-btn"></label>
+        <label for="r3" class="manual-btn"></label>
+        <label for="r4" class="manual-btn"></label>
+        <label for="r5" class="manual-btn"></label>
+      </div>
+      <!--SLIDES SHOW ENDS-->
+
+      <div class="title">
+        <img src="../photo/icon_1.png">
+      </div>
+      <!--CARDS BELOW-->
+      <!-- <div class="cards cardpic" id="first-category"></div> -->
+      <!--CARDS ENDS-->
+      <!-- </div> -->
+      <!--MOVIE SLIDE ENDS-->
+
+
+
+
+      <!-- <div id="first-category"class = "cards-container" class="scroll-container"></div> -->
+
+      <p class="category-head" id="category-1"></p>
+      <div class="scroll-container">
+        <div class="gridscroll" id="first-category">
+          <!-- PLACE YOUR IMG URL HERE -->
+
+        </div>
+      </div>
+
+      <p class="category-head" id="category-2"></p>
+      <div class="scroll-container">
+        <div class="gridscroll" id="second-category">
+          <!-- PLACE YOUR IMG URL HERE -->
+
+        </div>
+      </div>
+
+      <p class="category-head" id="category-3"></p>
+      <div class="scroll-container">
+        <div class="gridscroll" id="third-category">
+          <!-- PLACE YOUR IMG URL HERE -->
+
+        </div>
+      </div>
+
+      <div class="category-head">OTHERS ARE WATCHING</div>
+
+      
+      
+
+    </div>
+    <!--content-slides-container close tag-->
+
+
+
+
+
+
+
+
+    <!-- <script src="../js/userjs.js"></script> -->
+    <script src="../js/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign up</title>
+        <link rel="stylesheet" href="./css/signup.css" />
+    </head>
+    <body>
+        <div class="outer-container">
+            <div class="container">
+                <div class="form-field">
+                    <div class="sign-up-title">Sign up</div>
+                    <!--SIGN UP A NEW USERS -INPUT FORM -->
+                    <form id="sign-up-post">
+                        <div>
+                            <!--pattern="^[a-zA-Z]{3,10}$"  
+                             
+                             title="Please enter username that is at least 3 characters long and uses only characters"  -->
+                            <input
+                                class="input-box"
+                                type="gmail"
+                                name="username"
+                                pattern="^[a-zA-Z]{3,10}$"
+                                title="Please enter username that is at least 3 characters long and uses only characters"
+                                placeholder="Username"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <input
+                                class="input-box"
+                                type="password"
+                                minlength="3"
+                                maxlength="10"
+                                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                                title="Please include at least 1 uppercase character, 1 lowercase character, and within 3-10 character length."
+                                name="password"
+                                placeholder="Password"
+                                autocomplete="off"
+                                required
+                            />
+                        </div>
+                        <!--INPUT GENDER AND THREE CATEGORIES -->
+                        <select name="gender" required>
+                            <option value="">請輸入性別</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+
+                        <div id=" choices-category" class="category-choice">
+                            <select
+                                name="first-choice"
+                                required
+                                id="first-choice-category"
+                            ></select>
+                            <select
+                                name="second-choice"
+                                required
+                                id="second-choice-category"
+                            ></select>
+                            <select
+                                name="third-choice"
+                                required
+                                id="third-choice-category"
+                            ></select>
+                        </div>
+                        <!--INPUT GENDER AND THREE CATEGORIES --ENDS -->
+                        <button
+                            id="sign-up-button"
+                            text="button"
+                            value="submit"
+                        >
+                            Sign Up
+                        </button>
+                        <div
+                            class="message"
+                            id="message-hide"
+                            style="display: none"
+                        >
+                            Register Successfully
+                        </div>
+                    </form>
+                    <!--SIGN UP A NEW USERS -INPUT FORM -ENDS -->
+                </div>
+            </div>
+        </div>
+        <script src="./js/signup.js"></script>
+    </body>
+</html>

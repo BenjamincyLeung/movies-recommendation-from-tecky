@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movie-details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/navbarcomponent.css" />
+    <link rel="stylesheet" href="../css/movie-detail.css" />
+    <link rel="stylesheet" href="../css/starsRating.css" />
+</head>
+
+<body>
+    <!--NAVBAR BELOW-->
+    <div class="container">
+        <div class="navbar-container">
+            <!--navBar -FOUR ITEMS ON LEFT SIDE-->
+            <a href="../html/Home.html">
+                <img href="../html/Home.html" id="jackass_pic" src="../photo/the_movie-logo.jpg" /></a>
+            <a href="../html/Home.html" class="home elementList">HOME</a>
+            <!--DROP DOWN MENU-->
+            <div class="dropdown elementList">
+                <a href="" class="dropBtn">GENRE</a>
+                <div class="dropdown-content">
+                    <a href="./genre.html?cid=1" id="catValue" value="1">Action</a>
+                    <a href="./genre.html?cid=2" id="catValue" value="2">Thriller</a>
+                    <a href="./genre.html?cid=3" id="catValue" value="3">Science Fiction</a>
+                    <a href="./genre.html?cid=4" id="catValue" value="4">Mystery</a>
+                    <a href="./genre.html?cid=5" id="catValue" value="5">Adventure</a>
+                    <a href="./genre.html?cid=6" id="catValue" value="6">Drama</a>
+                    <a href="./genre.html?cid=7" id="catValue" value="7">Crime</a>
+                    <a href="./genre.html?cid=8" id="catValue" value="8">Fantasy</a>
+                    <a href="./genre.html?cid=9" id="catValue" value="9">Comedy</a>
+                    <a href="./genre.html?cid=10" id="catValue" value="10">Western</a>
+                    <a href="./genre.html?cid=11" id="catValue" value="11">Romance</a>
+                    <a href="./genre.html?cid=12" id="catValue" value="12">Family</a>
+                    <a href="./genre.html?cid=13" id="catValue" value="13">Animation</a>
+                    <a href="./genre.html?cid=14" id="catValue" value="14">War</a>
+                    <a href="./genre.html?cid=15" id="catValue" value="15">History</a>
+                    <a href="./genre.html?cid=16" id="catValue" value="16">Horror</a>
+                </div>
+                <!--DROP DOWN MENU ENDS-->
+            </div>
+                <a href="../html/mylist.html" class="elementList hover clickEffect">MY LIST</a>
+            </div>
+            <div class="search-bar-login right-sidebar">
+                <input class="movie-name-input-box" type="text" name="movie" placeholder="請輸入關鍵字" />
+                <a class="link-to-login link-to-logout" href="/" onclick="signOut();">Logout</a>
+            </div>
+        </div>
+        <!--NAVBAR ENDS-->
+        <!--MOVIE DETAIL PART -->
+        <div class="outer-movie-container">
+            <div class="video-container">
+                <video class="video-screen-size" controls="" autoplay="none" name="media">
+                    <source
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"
+                        type="video/mp4" />
+                </video>
+            </div>
+
+            <div class="film-overview">
+                <div class="film-image">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX700_.jpg"
+                        width="220px" alt="有圖有真相" />
+                </div>
+                <div class="description-box">
+                    <div class="film-name">film-name</div>
+                    <div class="description common-wording-style">
+                        <span>OVERVIEW</span>
+                    </div>
+                    <hr />
+                    <div class="released-date common-wording-style">
+                        released-date
+                    </div>
+                    <hr />
+                    <div class="star-rating-system">
+                        <div class="rating-wrap">
+                            <h2>How do you like it</h2>
+                            <div class="center">
+                                <form id="star-system">
+                                    <fieldset class="rating">
+                                        <input type="radio" id="star5" name="rating" value="5" /><label for="star5"
+                                            class="full" title="Awesome"></label>
+                                        <input type="radio" id="star4" name="rating" value="4" /><label for="star4"
+                                            class="full" title="Excellent"></label>
+                                        <input type="radio" id="star3" name="rating" value="3" /><label for="star3"
+                                            class="full" title="Great"></label>
+                                        <input type="radio" id="star2" name="rating" value="2" /><label for="star2"
+                                            class="full" title="Good"></label>
+                                        <input type="radio" id="star1" name="rating" value="1" /><label for="star1"
+                                            class="full" title="SOSO"></label>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <!-- <h4 id="rating-value"></h4> -->
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="add-to-watchList">加入片單</button>
+            </div>
+            <!--MOVIE DETAIL PART ENDS-->
+        </div>
+       
+  <!--star-rating-system-Ends-->
+
+            <!--Cards begins -->
+
+            <!-- suggest changed by Ben -->
+
+            <!-- <div class="common-feature">
+                <img src="../photo/icon_1.png" />
+                <div class="category-title">YOU MAY ALSO LIKE</div>
+                <div class="cards cardpic">
+                    <div class="card">
+                        <img
+                            src="../photo/movie-film-star.png"
+                            width="30"
+                            height="90"
+                            alt="Avatar"
+                            style="width: 100%"
+                        />
+                        <p>Hello World</p>
+                    </div>
+
+                    <div class="card">
+                        <img
+                            src="../photo/movie-film-star.png"
+                            width="30"
+                            height="90"
+                            alt="Avatar"
+                            style="width: 100%"
+                        />
+                        <p>Hello World</p>
+                    </div>
+                </div>
+            </div> -->
+
+            <p class="category-head" id="you-may-also-like"></p>
+            <div class="scroll-container">
+              <div class="gridscroll" id="recommend-movie">
+                <!-- PLACE YOUR IMG URL HERE -->
+      
+              </div>
+            </div>
+       
+
+        <!--Ends of Container-->
+        <script src="../js/moviedetail.js"></script>
+</body>
+
+</html>

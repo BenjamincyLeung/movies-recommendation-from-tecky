@@ -1,0 +1,802 @@
+[
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 9648, 'name': 'Mystery'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Inception"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 28, 'name': 'Action'}, {'id': 80, 'name': 'Crime'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Dark Knight"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Interstellar"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Guardians of the Galaxy"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}]",
+        "title": "Fight Club"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Matrix"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Iron Man"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}]",
+        "title": "The Lord of the Rings: The Fellowship of the Ring"
+    },
+    {
+        "genres": "[{'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Pulp Fiction"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "The Shawshank Redemption"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}]",
+        "title": "The Lord of the Rings: The Return of the King"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "Forrest Gump"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Titanic"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}]",
+        "title": "The Lord of the Rings: The Two Towers"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Batman Begins"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Harry Potter and the Philosopher's Stone"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Captain America: The First Avenger"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Avengers: Age of Ultron"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Star Wars"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}, {'id': 35, 'name': 'Comedy'}]",
+        "title": "The Wolf of Wall Street"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 35, 'name': 'Comedy'}, {'id': 16, 'name': 'Animation'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Inside Out"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "The Amazing Spider-Man"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Hunger Games: Catching Fire"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Finding Nemo"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Back to the Future"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "X-Men: Days of Future Past"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Monsters, Inc."
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Harry Potter and the Prisoner of Azkaban"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Ant-Man"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "The Godfather"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Empire Strikes Back"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Harry Potter and the Chamber of Secrets"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 9648, 'name': 'Mystery'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Se7en"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Harry Potter and the Goblet of Fire"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}, {'id': 9648, 'name': 'Mystery'}]",
+        "title": "Harry Potter and the Order of the Phoenix"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Gladiator"
+    },
+    {
+        "genres": "[{'id': 10751, 'name': 'Family'}, {'id': 16, 'name': 'Animation'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "The Lion King"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Harry Potter and the Half-Blood Prince"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Toy Story"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Pirates of the Caribbean: Dead Man's Chest"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 36, 'name': 'History'}, {'id': 10752, 'name': 'War'}]",
+        "title": "Saving Private Ryan"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 10752, 'name': 'War'}]",
+        "title": "300"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Kill Bill: Vol. 1"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Pirates of the Caribbean: On Stranger Tides"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 27, 'name': 'Horror'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "I Am Legend"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Jurassic Park"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Divergent"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Return of the Jedi"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Pirates of the Caribbean: At World's End"
+    },
+    {
+        "genres": "[{'id': 27, 'name': 'Horror'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Alien"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "V for Vendetta"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Silence of the Lambs"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Men in Black"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Dawn of the Planet of the Apes"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Ratatouille"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 9648, 'name': 'Mystery'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Prestige"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "The Departed"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Taken"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 36, 'name': 'History'}, {'id': 10752, 'name': 'War'}]",
+        "title": "Schindler's List"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Spider-Man 2"
+    },
+    {
+        "genres": "[{'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Leon: The Professional"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Terminator 2: Judgment Day"
+    },
+    {
+        "genres": "[{'id': 10749, 'name': 'Romance'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Her"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Terminator"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Star Wars: Episode III - Revenge of the Sith"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Shrek"
+    },
+    {
+        "genres": "[{'id': 9648, 'name': 'Mystery'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Memento"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "The Green Mile"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Hunger Games: Mockingjay - Part 2"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Transformers"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "X-Men Origins: Wolverine"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Star Wars: Episode II - Attack of the Clones"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 80, 'name': 'Crime'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Kill Bill: Vol. 2"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Die Hard"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Cars"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 12, 'name': 'Adventure'}, {'id': 16, 'name': 'Animation'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Spirited Away"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Fifth Element"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Ice Age"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Raiders of the Lost Ark"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Back to the Future Part II"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Catch Me If You Can"
+    },
+    {
+        "genres": "[{'id': 27, 'name': 'Horror'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Shining"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "I, Robot"
+    },
+    {
+        "genres": "[{'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Ocean's Eleven"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Blade Runner"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Reservoir Dogs"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Charlie and the Chocolate Factory"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "Eternal Sunshine of the Spotless Mind"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "Edward Scissorhands"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "Twilight"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Spider-Man 3"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Life Is Beautiful"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 9648, 'name': 'Mystery'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Bourne Identity"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}, {'id': 9648, 'name': 'Mystery'}]",
+        "title": "Donnie Darko"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "In Time"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Matrix Reloaded"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 10751, 'name': 'Family'}, {'id': 35, 'name': 'Comedy'}, {'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "Aladdin"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}]",
+        "title": "American Beauty"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "A Clockwork Orange"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "The Godfather: Part II"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 36, 'name': 'History'}, {'id': 10752, 'name': 'War'}]",
+        "title": "Braveheart"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "Am\u00e9lie"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}, {'id': 9648, 'name': 'Mystery'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "The Curious Case of Benjamin Button"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 12, 'name': 'Adventure'}, {'id': 10751, 'name': 'Family'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "E.T. the Extra-Terrestrial"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Usual Suspects"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Independence Day"
+    },
+    {
+        "genres": "[{'id': 10751, 'name': 'Family'}, {'id': 16, 'name': 'Animation'}]",
+        "title": "Madagascar"
+    },
+    {
+        "genres": "[{'id': 27, 'name': 'Horror'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Aliens"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Godzilla"
+    },
+    {
+        "genres": "[{'id': 9648, 'name': 'Mystery'}, {'id': 53, 'name': 'Thriller'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "The Sixth Sense"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Indiana Jones and the Last Crusade"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "GoodFellas"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "The Devil Wears Prada"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Transformers: Revenge of the Fallen"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Men in Black II"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Snow White and the Huntsman"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Matrix Revolutions"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Into the Wild"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}, {'id': 10752, 'name': 'War'}]",
+        "title": "Pan's Labyrinth"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 35, 'name': 'Comedy'}]",
+        "title": "Bruce Almighty"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}]",
+        "title": "American History X"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "A Beautiful Mind"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "The Incredible Hulk"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "No Country for Old Men"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Shrek 2"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 9648, 'name': 'Mystery'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "2001: A Space Odyssey"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Hancock"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Mr. & Mrs. Smith"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "G.I. Joe: Retaliation"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 10751, 'name': 'Family'}, {'id': 35, 'name': 'Comedy'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Ice Age: The Meltdown"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Scarface"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "The Big Lebowski"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}]",
+        "title": "One Flew Over the Cuckoo's Nest"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Back to the Future Part III"
+    },
+    {
+        "genres": "[{'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Snatch"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Night at the Museum"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Expendables 2"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 9648, 'name': 'Mystery'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Bourne Ultimatum"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Snowpiercer"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 10751, 'name': 'Family'}, {'id': 9648, 'name': 'Mystery'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Tomorrowland"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}]",
+        "title": "Good Will Hunting"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Bourne Supremacy"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "American Hustle"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Indiana Jones and the Temple of Doom"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}, {'id': 10752, 'name': 'War'}]",
+        "title": "Troy"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "The Mummy"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}]",
+        "title": "Dead Poets Society"
+    },
+    {
+        "genres": "[{'id': 53, 'name': 'Thriller'}, {'id': 9648, 'name': 'Mystery'}]",
+        "title": "The Da Vinci Code"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Sin City"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Trainspotting"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 10751, 'name': 'Family'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Mission: Impossible"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 35, 'name': 'Comedy'}]",
+        "title": "Teenage Mutant Ninja Turtles"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "127 Hours"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 9648, 'name': 'Mystery'}]",
+        "title": "Minority Report"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Fantastic 4: Rise of the Silver Surfer"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Taxi Driver"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "The Twilight Saga: Breaking Dawn - Part 1"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 10752, 'name': 'War'}]",
+        "title": "Full Metal Jacket"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Wanted"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Indiana Jones and the Kingdom of the Crystal Skull"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Underworld"
+    },
+    {
+        "genres": "[{'id': 10749, 'name': 'Romance'}, {'id': 35, 'name': 'Comedy'}, {'id': 80, 'name': 'Crime'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "The Mask"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 12, 'name': 'Adventure'}]",
+        "title": "Armageddon"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "The Lost World: Jurassic Park"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "Requiem for a Dream"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}]",
+        "title": "Million Dollar Baby"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 27, 'name': 'Horror'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Purge"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Terminator Salvation"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Home Alone"
+    },
+    {
+        "genres": "[{'id': 27, 'name': 'Horror'}, {'id': 35, 'name': 'Comedy'}]",
+        "title": "Shaun of the Dead"
+    },
+    {
+        "genres": "[{'id': 878, 'name': 'Science Fiction'}, {'id': 53, 'name': 'Thriller'}, {'id': 9648, 'name': 'Mystery'}]",
+        "title": "Twelve Monkeys"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "The Day After Tomorrow"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}, {'id': 12, 'name': 'Adventure'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Home Alone 2: Lost in New York"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Ghostbusters"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Jumanji"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 27, 'name': 'Horror'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Psycho"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}, {'id': 28, 'name': 'Action'}]",
+        "title": "King Kong"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "War of the Worlds"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "Dark Shadows"
+    },
+    {
+        "genres": "[{'id': 37, 'name': 'Western'}]",
+        "title": "The Good, the Bad and the Ugly"
+    },
+    {
+        "genres": "[{'id': 10749, 'name': 'Romance'}, {'id': 14, 'name': 'Fantasy'}, {'id': 18, 'name': 'Drama'}, {'id': 35, 'name': 'Comedy'}]",
+        "title": "Groundhog Day"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "American Pie"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 12, 'name': 'Adventure'}, {'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "Shrek the Third"
+    },
+    {
+        "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}, {'id': 28, 'name': 'Action'}]",
+        "title": "Blood Diamond"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Horrible Bosses"
+    },
+    {
+        "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+        "title": "The Simpsons Movie"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "Juno"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Cloverfield"
+    },
+    {
+        "genres": "[{'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Hellboy"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 28, 'name': 'Action'}, {'id': 14, 'name': 'Fantasy'}]",
+        "title": "The Mummy Returns"
+    },
+    {
+        "genres": "[{'id': 27, 'name': 'Horror'}, {'id': 9648, 'name': 'Mystery'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Saw"
+    },
+    {
+        "genres": "[{'id': 80, 'name': 'Crime'}, {'id': 28, 'name': 'Action'}, {'id': 35, 'name': 'Comedy'}]",
+        "title": "Hot Fuzz"
+    },
+    {
+        "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}]",
+        "title": "Lara Croft: Tomb Raider"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}]",
+        "title": "The Breakfast Club"
+    },
+    {
+        "genres": "[{'id': 28, 'name': 'Action'}, {'id': 53, 'name': 'Thriller'}, {'id': 878, 'name': 'Science Fiction'}]",
+        "title": "Terminator 3: Rise of the Machines"
+    },
+    {
+        "genres": "[{'id': 53, 'name': 'Thriller'}, {'id': 80, 'name': 'Crime'}]",
+        "title": "Ocean's Twelve"
+    },
+    {
+        "genres": "[{'id': 35, 'name': 'Comedy'}, {'id': 10749, 'name': 'Romance'}]",
+        "title": "50 First Dates"
+    }
+]

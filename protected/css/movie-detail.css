@@ -1,0 +1,119 @@
+body {
+    /* margin: 0;
+  padding: 0; */
+    background-color: bisque;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-screen-size {
+    width: 1000px;
+}
+.film-overview {
+    display: flex;
+    margin-top: 30px;
+
+    height: fit-content;
+    width: 100%;
+}
+.film-image {
+    margin-left: 120px;
+}
+.film-image img:hover {
+    -webkit-transform: scale(1.1);
+}
+.description-box {
+    margin: 30px;
+}
+.film-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    text-decoration-line: underline;
+    margin-bottom: 8px;
+}
+
+.common-wording-style {
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.title-film {
+    font-weight: bold;
+}
+
+.full:hover {
+    -webkit-transform: scale(1.6);
+}
+
+.add-to-watchList-button {
+    text-align: start;
+}
+
+
+
+/* Section F: Added by Ben: for the recommendation part */
+.category-head {
+  font-size:50px;
+  text-align: center;
+  background-color: rgb(189, 189, 70);
+  font-family:monospace;
+  margin: 20px 0px 0px 0px;
+}
+
+.cards-container {
+  display: flex;
+}
+
+
+
+.scroll-container{
+  overflow: auto;
+  white-space: normal;  /*modified*/
+  padding: 5px 70px 5px 0px;
+  background: transparent;
+  background-color:aqua;
+  border-radius:15px;
+}
+
+.gridscroll{
+  display:inline-block;display: flex;
+}
+
+.gridscroll img {
+  margin-right:22px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  margin-right: 10px;
+}
+
+
+
+.film-name-button {
+  display: inline-block;
+  width: 130px; 
+  height: auto;  /*modified*/
+  margin: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  font-size: 15px;
+  border: rgb(1, 49, 60) solid 10px;
+  overflow-wrap: break-word;
+  transition: 0.5s ;
+  cursor: pointer;
+}
+.film-name-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* End of Section F */
